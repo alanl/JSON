@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		ED2B1D122257D89000D1F9F6 /* AppPreview.mov.zip in Resources */ = {isa = PBXBuildFile; fileRef = ED2B1D112257D88F00D1F9F6 /* AppPreview.mov.zip */; };
-		ED4B7B0B22545BCE00B042A2 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B7B0A22545BCE00B042A2 /* JSONModel.swift */; };
+		ED4B7B0B22545BCE00B042A2 /* ISSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B7B0A22545BCE00B042A2 /* ISSModel.swift */; };
 		ED67B2C8225311F900194AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67B2C7225311F900194AC0 /* AppDelegate.swift */; };
 		ED67B2CF225311FB00194AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED67B2CE225311FB00194AC0 /* Assets.xcassets */; };
 		ED67B2D2225311FB00194AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED67B2D0225311FB00194AC0 /* LaunchScreen.storyboard */; };
-		ED67B2DA2253137600194AC0 /* JSONView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67B2D92253137600194AC0 /* JSONView.swift */; };
-		ED67B2DC225313A100194AC0 /* JSONController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67B2DB225313A100194AC0 /* JSONController.swift */; };
+		ED67B2DA2253137600194AC0 /* ISSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67B2D92253137600194AC0 /* ISSView.swift */; };
+		ED67B2DC225313A100194AC0 /* ISSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67B2DB225313A100194AC0 /* ISSController.swift */; };
 		ED67B2DE2253146A00194AC0 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67B2DD2253146A00194AC0 /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED2B1D112257D88F00D1F9F6 /* AppPreview.mov.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = AppPreview.mov.zip; sourceTree = "<group>"; };
-		ED4B7B0A22545BCE00B042A2 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
+		ED4B7B0A22545BCE00B042A2 /* ISSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSModel.swift; sourceTree = "<group>"; };
 		ED67B2C4225311F900194AC0 /* JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED67B2C7225311F900194AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED67B2CE225311FB00194AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED67B2D1225311FB00194AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED67B2D3225311FB00194AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED67B2D92253137600194AC0 /* JSONView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONView.swift; sourceTree = "<group>"; };
-		ED67B2DB225313A100194AC0 /* JSONController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONController.swift; sourceTree = "<group>"; };
+		ED67B2D92253137600194AC0 /* ISSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSView.swift; sourceTree = "<group>"; };
+		ED67B2DB225313A100194AC0 /* ISSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSController.swift; sourceTree = "<group>"; };
 		ED67B2DD2253146A00194AC0 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,9 +63,9 @@
 				ED2B1D112257D88F00D1F9F6 /* AppPreview.mov.zip */,
 				ED67B2DD2253146A00194AC0 /* Library.swift */,
 				ED67B2C7225311F900194AC0 /* AppDelegate.swift */,
-				ED4B7B0A22545BCE00B042A2 /* JSONModel.swift */,
-				ED67B2D92253137600194AC0 /* JSONView.swift */,
-				ED67B2DB225313A100194AC0 /* JSONController.swift */,
+				ED4B7B0A22545BCE00B042A2 /* ISSModel.swift */,
+				ED67B2D92253137600194AC0 /* ISSView.swift */,
+				ED67B2DB225313A100194AC0 /* ISSController.swift */,
 				ED67B2CE225311FB00194AC0 /* Assets.xcassets */,
 				ED67B2D0225311FB00194AC0 /* LaunchScreen.storyboard */,
 				ED67B2D3225311FB00194AC0 /* Info.plist */,
@@ -144,10 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4B7B0B22545BCE00B042A2 /* JSONModel.swift in Sources */,
-				ED67B2DA2253137600194AC0 /* JSONView.swift in Sources */,
+				ED4B7B0B22545BCE00B042A2 /* ISSModel.swift in Sources */,
+				ED67B2DA2253137600194AC0 /* ISSView.swift in Sources */,
 				ED67B2DE2253146A00194AC0 /* Library.swift in Sources */,
-				ED67B2DC225313A100194AC0 /* JSONController.swift in Sources */,
+				ED67B2DC225313A100194AC0 /* ISSController.swift in Sources */,
 				ED67B2C8225311F900194AC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

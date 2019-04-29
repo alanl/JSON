@@ -1,17 +1,17 @@
-// JSONModel.swift
+// ISSModel.swift
 // JSON
 // Created by John Christopher Ferris
 // Copyright © 2019 sub11 LLC. All rights reserved.
 
 import Foundation
 
-protocol JSONModelDelegate: class {
+protocol ISSModelDelegate: class {
   func alert(title: String?, message: String?)
   func updateView(issLocation: ISSLocation)
 }
 
-class JSONModel: NSObject {
-  weak var delegate: JSONModelDelegate?
+class ISSModel: NSObject {
+  weak var delegate: ISSModelDelegate?
   let url = URL(string: "https://api.wheretheiss.at/v1/satellites/25544")!
 
   func updateData() {

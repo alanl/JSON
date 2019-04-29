@@ -1,11 +1,11 @@
-// JSONView.swift
+// ISSView.swift
 // JSON
 // Created by John Christopher Ferris
 // Copyright © 2019 sub11 LLC. All rights reserved.
 
 import UIKit
 
-class JSONView: UIView {
+class ISSView: UIView {
   let activityIndicator = Library.activityIndicator()
   let latitudeKey = Library.label(text: "Latitude", multiplier: 1.1, textColor: .clear)
   let latitudeValue = Library.label(text: "", multiplier: 1.1, textColor: .white)
